@@ -71,18 +71,20 @@
 	float: left;
 }
 .special{
+	float: left;
+	width: 300px;
 	height: 300px;
 	background-color: black;
 }
 .special h2{
 	color:#00BBFF;
-	padding-top: 30px;
- 	padding-left: 650px;
+ 	padding-left: 20px;
  	font-size: 30px;	
 }
 .special p{
 	color:#DDDDDD;
 	line-height: 30px;
+	padding-left:20px; 
 }
 .special a{
 	display: block;
@@ -93,7 +95,8 @@
     font-size: 12px;
     text-align: center;
     text-decoration: none;
-  	margin-left: 650px;
+  	margin-left: 20px;
+
 }
 .photo img{
 	width: 600px;
@@ -103,6 +106,10 @@
 .menu p:hover{
 	color:blue;
 }
+.special a:hover{
+	color:blue;
+}
+
 h4:hover{
 	color:blue;
 }
@@ -110,9 +117,10 @@ h4:hover{
 	height: 120px;
 	margin-bottom: 20px;
 	background-color: white;
-	padding-left:15px;
+	padding-left:30px;
 	padding-right:15px; 
 	padding-top:15px;
+
 }
 
 .word p{
