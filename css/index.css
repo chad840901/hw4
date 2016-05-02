@@ -203,3 +203,165 @@ h4:hover{
 input{
 	margin-left:20px; 
 }
+<<<<<<< HEAD
+=======
+@media only screen and (max-width: 768px){
+.wrap{
+	width: 100%;
+}
+.menu {
+    position: absolute;
+    top: 30px;
+    left: 150px;
+}
+.photo {
+    display: none;
+}
+.special {
+    width: 100%;
+	float: left;
+    margin-left: 0px;
+    margin-right: 0px;
+ 
+    
+}
+.special p {
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.special h2 {
+    text-align: left;
+    font-size: 45px;
+    color: #01AAFF;
+}
+ .word{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+.word p {
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.news{
+	width: 100%;
+}
+.event ul{
+    width: 90%;    
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.event{
+	width: 100%;
+	float: none;
+}
+.list{
+	margin-top: 10px;
+	width: 90%;
+	margin-right: 5%;
+    margin-left: 5%;
+
+}
+.list ul li{
+	    list-style: none;
+    text-align: center;
+}
+.list h3{
+	 text-align: center;	
+}
+.event ul li p {
+    width: 60%;
+}
+input{
+	text-align: center;
+	margin-left: 40%;
+	width: 20%;
+}
+.list a{
+	margin-left: 40%;
+	width: 20%;
+}
+.footer{
+	position: absolute;
+	top: 1600px;
+	margin-left: 30%;
+	width: 30%;
+}
+}
+@media only screen and (max-width: 480px){
+.wrap{
+	width: 100%;
+}
+.header{
+	height: 500px;
+}
+.menu{
+	position: absolute;
+    top: 110px;
+    width: 100%;
+    text-align: center;
+    left: -40px;
+    float: none;
+}
+.menu ul li{
+    width: 100%;
+    font-size: 20px;
+    clear: left;
+    background-color: yellow;
+    margin-bottom: 5px;
+    height: 50px;
+}
+.special{
+	display: none;
+}
+.word{
+	float: none;
+	width: 100%;
+}
+.news{
+	margin-right: 5%;
+    margin-left: 5%;
+    width: 90%;
+	float: none;
+}
+.event {
+	float: none;
+}
+.event h3,h4{
+	display: none;
+}
+.event ul{
+	float: none;
+	margin-top: 130px;
+}
+.event ul li{
+	margin-top: 50px;
+    margin-left: 20px;
+   
+}
+.list{
+	float: none;
+}
+.list h3{
+	display: none;
+}
+.list ul{
+	margin-top: 520px;
+}
+.list ul li{
+	margin-top: 20px;
+	width: 90%;
+		margin-right: 5%;
+    margin-left: 5%;
+}
+.footer{
+	margin-top:300px; 
+	float: none;
+	width: 90%;
+	margin-right: 5%;
+    margin-left: 5%;
+}
+}
+>>>>>>> refs/remotes/origin/master
