@@ -1,0 +1,417 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.background{
+	background: 
+	url(../img/bg_html.jpg);
+}
+.wrap{
+	width: 900px;
+	margin: 0 auto;
+}
+.header{
+	position: relative;
+	margin: 15px;
+}
+.header h1 a{
+	width: 170px;
+	height: 81px;
+	display: block;
+	text-indent:-9999px;
+	background: 
+	url(../img/logo.png);
+
+}
+.header h1{
+	float: left;
+}
+.menu ul li{
+	float: left;
+	color:black;
+    margin-right: 20px;
+    margin-left: 20px;
+    list-style-type: none; 
+}
+.function{
+	float: left;
+	position: relative;
+	}
+.function ul li {
+	float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    list-style-type: none; 
+}
+.function ul{
+	position: absolute;
+	top: 10px;
+	right: -710px;
+
+}
+
+.menu a{
+	display: block;
+	text-decoration: none;
+    list-style-type: none;
+}
+
+.menu{
+	float: left;
+	position: absolute;
+    bottom:20px;
+    right:60px;
+}
+.menu p{
+    list-style-type: none;
+    color:black;
+}
+.clear{
+	clear: both;
+}
+.photo{
+	float: left;
+}
+.special{
+	float: left;
+	width: 300px;
+	height: 300px;
+	background-color: black;
+}
+.special h2{
+	margin-top: 40px;
+	color:#00BBFF;
+ 	padding-left: 20px;
+ 	font-size: 30px;	
+}
+.special p{
+	color:#DDDDDD;
+	line-height: 30px;
+	padding-left:20px; 
+	margin-top:5px;
+}
+.special a{
+	display: block;
+    width: 130px;
+    height: 30px;
+    background: #696969;
+	color: white;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+  	margin-left: 20px;
+	line-height: 30px;
+}
+.photo img{
+	width: 600px;
+	height: 300px;
+	margin-bottom: 30px;
+}
+.menu p:hover{
+	color:blue;
+}
+.special a:hover{
+	color:blue;
+}
+
+h4:hover{
+	color:blue;
+}
+.word{
+	height: 120px;
+	margin-bottom: 20px;
+	background-color: white;
+	padding-left:30px;
+	padding-right:15px; 
+	padding-top:15px;
+
+}
+.blue{
+	color:blue;
+}
+.word p{
+	font-size: 15px;
+	line-height: 25px;
+}
+.news{
+	background: white;
+	margin-top: 40px;
+	height: 420px;
+	padding-bottom: 10px;
+}
+.event{
+	float:left;
+	width:670px;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+.gray{
+	float:left;
+	width: 195px;
+	height: 150px;
+	background: #d3d3d3;
+	margin-left: 20px;
+}
+h3{
+	font-size: 32px;
+	margin-left: 20px;
+}
+.event ul{
+	margin-top: 10px;
+}
+.event ul li a img{
+	float:left;
+	margin:5px;
+}
+.event a{
+	display: block;
+	float:left;
+	width: 690px;
+	text-decoration: none;
+	color:black;
+}
+.event a:hover{
+	color:gray;
+}
+.text {
+	float:left;
+	width: 450px;
+	height: 158px;
+	margin-left: 20px;
+}
+.text h4{
+	font-size: 12px;
+	font-weight: bold;	
+}
+.text p{
+	font-size: 12px;
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+.list{
+	float: left;
+	width:150px;
+	margin-top: 30px;
+	margin-left: 40px;
+}
+.list h3{
+	margin-left: 0px;
+}
+.list ul{
+	margin-bottom: 10px;
+}
+.list ul li {
+	line-height: 25px;
+}
+.list ul li a{
+	font-size: 12px;
+	text-decoration: none;
+	color:black;
+}
+.list ul li a:hover{
+	color:blue;
+}
+.list form{
+	margin-top: 20px;
+	width: 50px;
+}
+.search {
+	display:block;
+	width:100px;	
+	height: 30px;
+	background: #F5F5F5;
+	color:blue;
+	font-size: 13px;
+	text-align: center;
+	text-decoration:none;
+	margin-top: 20px;
+	line-height: 30px;
+}
+.search:hover{
+	background: #dcdcdc;
+}
+.footer{
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+.footer p{
+	font-size: 13px;
+	text-align: center;
+}
+@media only screen and (max-width: 768px) {
+.background{
+	width:100%; 
+}
+.wrap{
+	width:100%; 
+}
+.header{
+	width: 85%;
+}
+.header h1{
+	float:none;
+	margin:auto;
+}
+.function {
+	display: none;
+}
+.menu ul li{
+	width: 20%;
+	font-size: 25px;
+	margin-left: 20px;	
+}
+.menu ul{
+	margin-left: 30%;
+	margin-top: 30px;
+}
+.special{
+	display: none;
+}
+.photo img{
+	width: 100%;
+}
+.word p{
+	font-size: 20px;
+}
+.event{
+	background: none;
+	width: 100%;
+}
+.event{
+	width: 100%;
+	background: white;
+	margin:0 auto;
+}
+.text{
+	width: 60%;
+}
+.text h4{
+	width: 100%
+}
+.text p{
+	width: 100%;
+	display: -webkit-box;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical; 
+}
+.event h3{
+	margin-top: 10px;
+}
+.event a{
+	width: 100%;
+	margin-left: 0px;
+}
+.list{
+	width: 100%;
+	background: white;
+	margin:0 auto;
+}
+.services{
+display: none;
+}
+.word{
+	display: none;
+}
+.find{
+	float:left;
+	margin-top: 10px;
+	margin-left: 350px;
+	margin-bottom: 20px;
+
+}
+}
+@media only screen and (max-width: 320px){
+.wrap{
+	width: 100%;
+}
+
+.header h1 a{
+    display: block;
+    width: 171px;
+    height: 81px;
+}
+.menu{
+	position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+	float: none;
+}
+.menu ul li{
+    width: 100%;
+    font-size: 20px;  
+    float: none;
+}
+.menu ul li a{
+	width:100%;
+	text-align:center;
+	background-color: yellow;
+}
+.photo img{
+	float: none;
+}
+
+.special{
+	display: none;
+}
+.word p{
+	display: none;
+}
+.event{
+	float: none;
+}
+
+.list{
+	position: absolute;
+	top:1200px;
+	margin-bottom: 150px;
+	margin-top: 100px;
+	float:none;
+}
+.news{
+	height: 660px;
+}
+.find{
+	display: none;
+}
+}
