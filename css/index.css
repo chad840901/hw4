@@ -388,6 +388,7 @@ display: none;
 	background-color: yellow;
 }
 .photo img{
+	width: 100%;
 	float: none;
 }
 
